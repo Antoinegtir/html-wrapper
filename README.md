@@ -1,6 +1,6 @@
 # HTML Wrapper
 
-<img src="https://flutter-seo.web.app/assets/assets/wrapp.png"></img>
+<img href="http://flutter-seo.web.app" src="https://flutter-seo.web.app/assets/assets/wrapp.png"></img>
 
 The `html_wrapper` package provides a simple solution for optimizing Search Engine Optimization (SEO) in Flutter applications by converting essential widgets into real HTML tags. By rendering Flutter widgets as true HTML elements, search engines can better understand the content of your app, leading to improved visibility and search rankings.
 
