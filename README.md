@@ -19,7 +19,7 @@ Add the following dependency to your pubspec.yaml file:
 
 ```
 dependencies:
-    html_wrapper: ^0.0.2
+    html_wrapper: ^0.0.3
 ```
 
 Then, run `flutter pub get` to fetch the package.

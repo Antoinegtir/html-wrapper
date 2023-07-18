@@ -1,6 +1,6 @@
 name: html_wrapper
 description: A Custom wrapper that convert Widget into html tag.
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/Antoinegtir/html-wrapper
 homepage: https://flutter-seo.web.app
 View/report issues: https://github.com/Antoinegtir/html-wrapper/issues
