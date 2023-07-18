@@ -1,0 +1,22 @@
+name: Publish to GitHub Packages
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Publish package
+        run: dart publish --pub-publish-quiet
+        env:
+          PUB_CREDENTIALS: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
