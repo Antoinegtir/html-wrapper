@@ -5,6 +5,7 @@ repository: https://github.com/Antoinegtir/html-wrapper
 homepage: https://flutter-seo.web.app
 View/report issues: https://github.com/Antoinegtir/html-wrapper/issues
 contributing: https://github.com/Antoinegtir/html-wrapper/blob/main/CONTRIBUTING.md
+publish_to: 'none'
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
